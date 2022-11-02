@@ -27,7 +27,7 @@ function App() {
         <input
           onChange={(e) => setSearch(e.target.value)}
           type="text"
-          placeholder="Placeholder"
+          placeholder="Search city"
           className=" my-5 px-3 w-[400px] py-3 placeholder-blueGray-300 text-blueGray-600   bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring "
         />
         {city && <City city={city} />}
